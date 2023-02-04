@@ -6,8 +6,8 @@ public class Main extends Thread {
 								344778888, "LGVR");
 	
 	public static void main(String[] args) {
-		Main thread = new Main();
-		thread.start();
+		//Main thread = new Main();
+		//thread.start();
 		// TODO Auto-generated method stub
 		Account mario = new Account("Mario", "Rossi", "Italiano", "Firenze", "Via Corso Garibaldi 99",
 									339887799, "MRRS");
@@ -16,6 +16,7 @@ public class Main extends Thread {
 	}
 	
 	public void run() {
+		/*
 		try {
 			Thread.sleep(5000);
 			//System.out.println(luigi.get_funds());
@@ -25,6 +26,7 @@ public class Main extends Thread {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		*/
 	}
 	
 }
